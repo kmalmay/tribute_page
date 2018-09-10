@@ -1,0 +1,107 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Old Standard TT', serif;
+  font-size: 48px;
+  font-weight: normal;
+  border: none;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: -0.2em;
+}
+
+h2 {
+  font-family: 'Old Standard TT', serif;
+  font-size: 24px;
+  margin-bottom: 3.5em;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+
+#img-div {
+  width: 100%;
+  height: auto;
+  margin: 0px 0px 5px 0px;
+  padding: 0;
+}
+
+div img {
+  max-width: 100%; 
+  display: block; 
+  height: auto;
+  margin: auto;
+}
+
+#img-caption {
+  float: right;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+p {
+  padding: 0em 1em 0em 1em;
+}
+
+.first-p {
+ padding-top: 2em;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+figure {
+  padding: 5px;
+  margin: 20px;
+  border: 1px dotted silver;
+}
+
+.thumbnail {
+  width: 450px;
+  height: 300px;
+}
+
+figcaption {
+  font-family: 'Raleway', sans-serif;
+  display: table-caption;
+  text-align: left;
+  width: 450px;
+  padding-top: 10px;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+li {
+  margin: 0em 0em 0em 2em;
+}
+
+div.quote-background {
+  margin: 3em 0em 0em 0em;
+  padding: 1.5em 0em 2em 0em;
+  background-color: rgb(220,220,220);
+}
+
+.quote {
+  font-family: 'Old Standard TT', serif;
+  font-size: 18px;
+  margin-left: 3em;
+  border-left: 0.05em solid;
+  width: 80%;
+}
+
+.quote div {
+  padding: 0.2em 0em 1em 0em;
+  float: right;
+  font-size: 18px;
+}
+
+
